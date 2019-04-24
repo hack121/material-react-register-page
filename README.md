@@ -11,6 +11,7 @@
 - [Demo](#demo)
 - [Quick Start](#quick-start)
 - [Documentation](#documentation)
+- [Design Files](#design-files)
 - [File Structure](#file-structure)
 - [Resources](#resources)
 - [Reporting Issues](#reporting-issues)
@@ -34,6 +35,10 @@
 ## Documentation
 
 The documentation for the React Material Kit is can be found [here](https://material-ui.com?ref=devias-io).
+
+## Design Files
+
+[Download .sketch file](https://s3.eu-west-2.amazonaws.com/devias/products/material-react-register-page/register_signin%26signup.sketch)
 
 ## File Structure
 
