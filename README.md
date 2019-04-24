@@ -23,8 +23,6 @@
 
 ## Quick start
 
-#### Download
-
 - [Download from Github](https://github.com/devias-io/material-react-register-page/archive/master.zip) or [Download from Devias](https://www.devias.io/products/react-material-register-page?ref=github-readme) or clone the repo: `git clone https://github.com/devias-io/material-react-register-page.git`
 
 - Install dependencies: `npm install` or `yarn`
@@ -43,7 +41,7 @@ Within the download you'll find the following directories and files:
 
 ```
 material-react-register-page
-.
+
 ├── .eslintrc
 ├── .prettierrc
 ├── LICENSE.md
