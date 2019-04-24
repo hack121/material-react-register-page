@@ -89,8 +89,8 @@ material-react-register-page
 	│    ├── pallete.js
 	│    └── typography.js
 	├── App.jsx
-	├── index.js
-	└── routes.js
+	└── index.js
+
 ```
 
 ## Resources
