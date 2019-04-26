@@ -108,6 +108,10 @@ material-react-register-page
 
 - Licensed under MIT (https://github.com/devias-io/material-react-register-page/blob/master/LICENSE.md)
 
+## Changelog
+
+- Github Changelog Page (https://github.com/devias-io/material-react-register-page/blob/master/CHANGELOG.md)
+
 ## Contact Us
 
 Email Us: contact@devias.io

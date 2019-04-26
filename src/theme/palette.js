@@ -11,6 +11,9 @@ export default {
     contrastText: white,
     main: '#0767DB'
   },
+  danger: {
+    main: '#ED4740'
+  },
   text: {
     primary: '#12161B',
     secondary: '#3E3F42',

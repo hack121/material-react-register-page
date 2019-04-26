@@ -6,12 +6,12 @@ export default theme => ({
   grid: {
     height: '100%'
   },
-  leftColumn: {
+  quoteWrapper: {
     [theme.breakpoints.down('md')]: {
       display: 'none'
     }
   },
-  imageWrapper: {
+  quote: {
     backgroundColor: theme.palette.common.neutral,
     height: '100%',
     display: 'flex',
@@ -22,23 +22,23 @@ export default theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center'
   },
-  quoteWrapper: {
-    textAlign: 'center'
+  quoteInner: {
+    textAlign: 'center',
+    flexBasis: '600px'
   },
   quoteText: {
     color: theme.palette.common.white,
-    fontWeight: 300,
-    maxWidth: '600px'
+    fontWeight: 300
   },
-  nameText: {
+  name: {
     marginTop: theme.spacing.unit * 3,
     color: theme.palette.common.white
   },
-  bioText: {
+  bio: {
     color: theme.palette.common.white
   },
-  rightColumn: {},
-  contentWrapper: {
+  contentWrapper: {},
+  content: {
     height: '100%',
     display: 'flex',
     flexDirection: 'column'
@@ -55,7 +55,7 @@ export default theme => ({
   logoImage: {
     marginLeft: theme.spacing.unit * 4
   },
-  formWrapper: {
+  contentBody: {
     flexGrow: 1,
     display: 'flex',
     alignItems: 'center',
@@ -63,20 +63,20 @@ export default theme => ({
       justifyContent: 'center'
     }
   },
-  formInner: {
+  form: {
     paddingLeft: '100px',
     paddingRight: '100px',
     paddingBottom: '125px',
-    maxWidth: '700px',
+    flexBasis: '700px',
     [theme.breakpoints.down('sm')]: {
       paddingLeft: theme.spacing.unit * 2,
       paddingRight: theme.spacing.unit * 2
     }
   },
-  titleText: {
+  title: {
     marginTop: theme.spacing.unit * 3
   },
-  subtitleText: {
+  subtitle: {
     color: theme.palette.common.muted,
     marginTop: theme.spacing.unit * 0.5
   },
@@ -99,7 +99,7 @@ export default theme => ({
     marginTop: theme.spacing.unit * 2,
     textAlign: 'center'
   },
-  fieldsWrapper: {
+  fields: {
     marginTop: theme.spacing.unit * 2
   },
   textField: {
@@ -108,7 +108,7 @@ export default theme => ({
       marginTop: theme.spacing.unit * 2
     }
   },
-  policyWrapper: {
+  policy: {
     display: 'flex',
     alignItems: 'center'
   },
@@ -146,5 +146,16 @@ export default theme => ({
     '&:hover': {
       color: theme.palette.primary.main
     }
+  },
+  fieldError: {
+    color: theme.palette.danger.main,
+    marginBottom: theme.spacing.unit * 2,
+    marginTop: theme.spacing.unit
+  },
+  submitError: {
+    color: theme.palette.danger.main,
+    alignText: 'center',
+    marginBottom: theme.spacing.unit,
+    marginTop: theme.spacing.unit * 2
   }
 });
